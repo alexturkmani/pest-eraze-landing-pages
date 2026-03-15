@@ -3,53 +3,375 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Pest Eraze Landing Pages</title>
+<title>Pest Control Melbourne | Pest Eraze | From $150</title>
+<meta name="description" content="Melbourne's trusted pest control service. Residential &amp; commercial pest treatment for termites, cockroaches, spiders, rodents, bed bugs &amp; more. Same-day service. Call 0416 528 547.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+tailwind.config={theme:{extend:{fontFamily:{sans:['Inter','system-ui','sans-serif']},colors:{brand:{50:'#f0f4ff',100:'#dbeafe',200:'#bfdbfe',300:'#93c5fd',400:'#60a5fa',500:'#3b82f6',600:'#2563eb',700:'#1e40af',800:'#1e3a8a',900:'#0f172a',950:'#0a1022'},cta:{400:'#fb923c',500:'#f97316',600:'#ea580c',700:'#c2410c'}}}}};
+</script>
 <style>
-*{margin:0;padding:0;box-sizing:border-box}
-body{font-family:'Inter',system-ui,sans-serif;background:#0a1022;color:#fff;min-height:100vh;padding:2rem}
-.container{max-width:900px;margin:0 auto}
-h1{font-size:2rem;font-weight:800;margin-bottom:.5rem}
-h1 span{background:linear-gradient(135deg,#f97316,#fb923c);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
-.subtitle{color:#93c5fd;margin-bottom:2rem;font-size:1rem}
-.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:1rem}
-.card{background:rgba(255,255,255,0.06);border:1px solid rgba(255,255,255,0.1);border-radius:1rem;padding:1.25rem;text-decoration:none;color:#fff;transition:all .2s}
-.card:hover{background:rgba(255,255,255,0.12);transform:translateY(-3px);box-shadow:0 10px 30px rgba(0,0,0,0.3)}
-.card h2{font-size:1rem;font-weight:700;margin-bottom:.25rem}
-.card p{font-size:.8rem;color:#93c5fd;opacity:.8}
-.badge{display:inline-block;background:#f97316;color:#0a1022;font-size:.65rem;font-weight:700;padding:.2rem .6rem;border-radius:99px;margin-bottom:.5rem}
-footer{text-align:center;margin-top:3rem;color:#475569;font-size:.75rem}
+*{scroll-behavior:smooth}
+body{font-family:'Inter',system-ui,sans-serif;overflow-x:hidden}
+.cta-btn{background:linear-gradient(135deg,#fde047,#facc15);position:relative;overflow:hidden;transition:all .3s;color:#0f172a}
+.cta-btn::before{content:'';position:absolute;top:0;left:-100%;width:100%;height:100%;background:linear-gradient(90deg,transparent,rgba(255,255,255,0.3),transparent);transition:left .5s}
+.cta-btn:hover::before{left:100%}
+.cta-btn:hover{transform:translateY(-2px);box-shadow:0 10px 40px rgba(253,224,71,0.5)}
+.service-card{transition:all .3s cubic-bezier(0.4,0,0.2,1)}
+.service-card:hover{transform:translateY(-8px);box-shadow:0 20px 60px rgba(0,0,0,0.15)}
+.service-card:hover .card-img{transform:scale(1.05)}
+.card-img{transition:transform .5s cubic-bezier(0.4,0,0.2,1)}
+.reveal{opacity:0;transform:translateY(30px);transition:all 0.7s cubic-bezier(0.4,0,0.2,1)}
+.reveal.visible{opacity:1;transform:translateY(0)}
 </style>
 </head>
-<body>
-<div class="container">
-<h1>Pest Eraze <span>Landing Pages</span></h1>
-<p class="subtitle">20 Google Ads landing pages &mdash; click any to preview</p>
-<div class="grid">
-<a href="general-pest-control.html" class="card"><span class="badge">From $180</span><h2>Pest Control</h2><p>Cockroaches, spiders, ants &amp; more</p></a>
-<a href="termite-inspection.html" class="card"><span class="badge">From $275</span><h2>Termite Inspection</h2><p>Thermal &amp; moisture detection</p></a>
-<a href="termite-treatment.html" class="card"><span class="badge">Free Quote</span><h2>Termite Treatment</h2><p>Chemical barriers &amp; baiting systems</p></a>
-<a href="cockroach-control.html" class="card"><span class="badge">From $150</span><h2>Cockroach Control</h2><p>German &amp; American cockroaches</p></a>
-<a href="spider-treatment.html" class="card"><span class="badge">From $150</span><h2>Spider Treatment</h2><p>Redbacks &amp; white-tails</p></a>
-<a href="rat-control.html" class="card"><span class="badge">From $180</span><h2>Rat Control</h2><p>Baiting, trapping &amp; exclusion</p></a>
-<a href="mice-control.html" class="card"><span class="badge">From $180</span><h2>Mice Control</h2><p>Entry point sealing &amp; elimination</p></a>
-<a href="ant-control.html" class="card"><span class="badge">From $150</span><h2>Ant Control</h2><p>Colony elimination at the source</p></a>
-<a href="wasp-removal.html" class="card"><span class="badge">From $180</span><h2>Wasp Removal</h2><p>Safe nest removal &amp; treatment</p></a>
-<a href="bee-removal.html" class="card"><span class="badge">From $200</span><h2>Bee Removal</h2><p>Safe removal &amp; relocation</p></a>
-<a href="bed-bug-treatment.html" class="card"><span class="badge">From $200</span><h2>Bed Bug Treatment</h2><p>Heat &amp; chemical treatment</p></a>
-<a href="flea-treatment.html" class="card"><span class="badge">From $150</span><h2>Flea Treatment</h2><p>Pets, carpets &amp; all surfaces</p></a>
-<a href="end-of-lease-flea.html" class="card"><span class="badge">From $150</span><h2>End of Lease Flea</h2><p>Certificate for bond release</p></a>
-<a href="commercial-pest.html" class="card"><span class="badge">Free Quote</span><h2>Commercial Pest Control</h2><p>HACCP-compliant for businesses</p></a>
-<a href="possum-removal.html" class="card"><span class="badge">Free Quote</span><h2>Possum Removal</h2><p>Humane &amp; wildlife-compliant</p></a>
-<a href="carpet-beetles-control.html" class="card"><span class="badge">From $150</span><h2>Carpet Beetle Control</h2><p>Protect fabrics &amp; furnishings</p></a>
-<a href="moths-removal.html" class="card"><span class="badge">From $150</span><h2>Moth Control</h2><p>Pantry &amp; clothes moths</p></a>
-<a href="birds-pest-control.html" class="card"><span class="badge">Free Quote</span><h2>Bird Control &amp; Proofing</h2><p>Netting, spikes &amp; deterrents</p></a>
-<a href="snake-pest-control.html" class="card"><span class="badge">Free Quote</span><h2>Snake Removal</h2><p>Licensed snake catchers</p></a>
-<a href="mosquitoes-control.html" class="card"><span class="badge">From $180</span><h2>Mosquito Control</h2><p>Barrier sprays &amp; larvicide</p></a>
-<a href="pre-con-termite-solutions.html" class="card"><span class="badge">Free Quote</span><h2>Pre-Construction Termite</h2><p>AS 3660.1 compliant barriers</p></a>
-</div>
-<footer>&copy; 2025 Pest Eraze Melbourne. Internal landing page directory.</footer>
-</div>
+<body class="bg-white text-gray-900">
+
+<!-- Nav -->
+<nav class="fixed top-0 w-full bg-brand-950/95 backdrop-blur-md z-50 border-b border-white/10">
+  <div class="max-w-7xl mx-auto px-4 h-16 flex items-center justify-between">
+    <div class="flex items-center gap-3">
+      <img src="logo.svg" alt="Pest Eraze" class="h-8 w-auto">
+      <span class="text-white font-extrabold text-lg">Pest <span class="text-cta-500">Eraze</span></span>
+    </div>
+    <div class="flex items-center gap-4">
+      <a href="tel:0416528547" class="hidden md:flex items-center gap-2 text-white/90 hover:text-white transition font-medium text-sm">
+        <svg class="w-4 h-4 text-cta-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
+        0416 528 547
+      </a>
+      <a href="tel:0416528547" class="cta-btn text-brand-900 font-bold px-5 py-2 rounded-full text-sm shadow-lg">Call Now</a>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero -->
+<section class="relative bg-gradient-to-br from-brand-950 via-brand-900 to-brand-800 pt-28 pb-20 overflow-hidden">
+  <div class="absolute inset-0">
+    <div class="absolute top-20 left-10 w-72 h-72 bg-cta-500/10 rounded-full blur-3xl animate-pulse"></div>
+    <div class="absolute bottom-10 right-10 w-96 h-96 bg-brand-500/10 rounded-full blur-3xl animate-pulse" style="animation-delay:-2s"></div>
+  </div>
+  <div class="relative max-w-7xl mx-auto px-4 text-center">
+    <span class="inline-block bg-cta-500/20 text-cta-400 text-xs font-bold px-4 py-1.5 rounded-full mb-6 uppercase tracking-wider">Melbourne's Trusted Pest Control</span>
+    <h1 class="text-4xl md:text-5xl lg:text-6xl font-extrabold text-white leading-tight mb-6">Professional Pest Control<br><span class="bg-gradient-to-r from-cta-400 to-yellow-300 bg-clip-text text-transparent">For Every Pest Problem</span></h1>
+    <p class="text-lg md:text-xl text-blue-200/80 max-w-2xl mx-auto mb-10">Same-day service across Melbourne. Licensed technicians, written warranties, and 4.9&#9733; rated by 200+ homeowners. From just $150.</p>
+    <div class="flex flex-col sm:flex-row gap-4 justify-center">
+      <a href="tel:0416528547" class="cta-btn font-bold px-8 py-4 rounded-full text-lg shadow-2xl flex items-center justify-center gap-2">
+        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
+        Call 0416 528 547
+      </a>
+      <a href="#services" class="border-2 border-white/30 text-white font-bold px-8 py-4 rounded-full text-lg hover:bg-white/10 transition flex items-center justify-center gap-2">
+        View Services
+        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+      </a>
+    </div>
+    <div class="flex flex-wrap justify-center gap-6 mt-10 text-sm text-blue-200/70">
+      <div class="flex items-center gap-2"><svg class="w-5 h-5 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>Same-Day Service</div>
+      <div class="flex items-center gap-2"><svg class="w-5 h-5 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>Licensed &amp; Insured</div>
+      <div class="flex items-center gap-2"><svg class="w-5 h-5 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>Written Warranty</div>
+      <div class="flex items-center gap-2"><svg class="w-5 h-5 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>4.9&#9733; Rated</div>
+    </div>
+  </div>
+</section>
+
+<!-- Services Grid -->
+<section id="services" class="py-20 bg-gray-50">
+  <div class="max-w-7xl mx-auto px-4">
+    <div class="text-center mb-16">
+      <span class="inline-block bg-brand-100 text-brand-700 text-xs font-bold px-4 py-1.5 rounded-full mb-4 uppercase tracking-wider">Our Services</span>
+      <h2 class="text-3xl md:text-4xl font-extrabold text-brand-900 mb-4">Pest Control Services Melbourne</h2>
+      <p class="text-gray-600 text-lg max-w-2xl mx-auto">From common household pests to complex termite treatments, we handle it all with same-day service and written warranties.</p>
+    </div>
+
+    <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
+
+      <!-- General Pest Control -->
+      <a href="general-pest-control.html" class="service-card bg-white rounded-2xl shadow-md border border-gray-100 overflow-hidden group block">
+        <div class="h-48 overflow-hidden bg-brand-100">
+          <img src="price%20card%20images/general-pest.jpg" alt="General pest control Melbourne" class="card-img w-full h-full object-cover" loading="lazy">
+        </div>
+        <div class="p-6">
+          <span class="inline-block bg-cta-500 text-white text-xs font-bold px-3 py-1 rounded-full mb-3">From $150</span>
+          <h3 class="text-xl font-bold text-brand-900 mb-2 group-hover:text-cta-600 transition">General Pest Control</h3>
+          <p class="text-gray-600 text-sm">Cockroaches, spiders, ants, silverfish &amp; more in one visit. Interior &amp; exterior treatment.</p>
+        </div>
+      </a>
+
+      <!-- Termite Inspection -->
+      <a href="termite-inspection.html" class="service-card bg-white rounded-2xl shadow-md border border-gray-100 overflow-hidden group block">
+        <div class="h-48 overflow-hidden bg-brand-100">
+          <img src="price%20card%20images/termite%20inspection.png" alt="Termite inspection Melbourne" class="card-img w-full h-full object-cover" loading="lazy">
+        </div>
+        <div class="p-6">
+          <span class="inline-block bg-cta-500 text-white text-xs font-bold px-3 py-1 rounded-full mb-3">From $280</span>
+          <h3 class="text-xl font-bold text-brand-900 mb-2 group-hover:text-cta-600 transition">Termite Inspection</h3>
+          <p class="text-gray-600 text-sm">Thermal imaging &amp; moisture detection. Detailed report with photos and risk assessment.</p>
+        </div>
+      </a>
+
+      <!-- Termite Treatment -->
+      <a href="termite-treatment.html" class="service-card bg-white rounded-2xl shadow-md border border-gray-100 overflow-hidden group block">
+        <div class="h-48 overflow-hidden bg-brand-100">
+          <img src="price%20card%20images/termite%201.jpg" alt="Termite treatment Melbourne" class="card-img w-full h-full object-cover" loading="lazy">
+        </div>
+        <div class="p-6">
+          <span class="inline-block bg-brand-600 text-white text-xs font-bold px-3 py-1 rounded-full mb-3">Free Quote</span>
+          <h3 class="text-xl font-bold text-brand-900 mb-2 group-hover:text-cta-600 transition">Termite Treatment</h3>
+          <p class="text-gray-600 text-sm">Chemical barriers, baiting systems &amp; direct colony treatment. Up to 10-year warranty.</p>
+        </div>
+      </a>
+
+      <!-- Cockroach Control -->
+      <a href="cockroach-control.html" class="service-card bg-white rounded-2xl shadow-md border border-gray-100 overflow-hidden group block">
+        <div class="h-48 overflow-hidden bg-brand-100">
+          <img src="price%20card%20images/cockroach.jpg" alt="Cockroach control Melbourne" class="card-img w-full h-full object-cover" loading="lazy">
+        </div>
+        <div class="p-6">
+          <span class="inline-block bg-cta-500 text-white text-xs font-bold px-3 py-1 rounded-full mb-3">From $150</span>
+          <h3 class="text-xl font-bold text-brand-900 mb-2 group-hover:text-cta-600 transition">Cockroach Control</h3>
+          <p class="text-gray-600 text-sm">German &amp; American cockroach elimination with gel baits, spray &amp; monitoring.</p>
+        </div>
+      </a>
+
+      <!-- Spider Treatment -->
+      <a href="spider-treatment.html" class="service-card bg-white rounded-2xl shadow-md border border-gray-100 overflow-hidden group block">
+        <div class="h-48 overflow-hidden bg-brand-100">
+          <img src="price%20card%20images/spider.jpg" alt="Spider treatment Melbourne" class="card-img w-full h-full object-cover" loading="lazy">
+        </div>
+        <div class="p-6">
+          <span class="inline-block bg-cta-500 text-white text-xs font-bold px-3 py-1 rounded-full mb-3">From $150</span>
+          <h3 class="text-xl font-bold text-brand-900 mb-2 group-hover:text-cta-600 transition">Spider Treatment</h3>
+          <p class="text-gray-600 text-sm">Redback, white-tail &amp; common house spider removal. Web clearing &amp; barrier spray.</p>
+        </div>
+      </a>
+
+      <!-- Rat Control -->
+      <a href="rat-control.html" class="service-card bg-white rounded-2xl shadow-md border border-gray-100 overflow-hidden group block">
+        <div class="h-48 overflow-hidden bg-brand-100">
+          <img src="price%20card%20images/rat.jpg" alt="Rat control Melbourne" class="card-img w-full h-full object-cover" loading="lazy">
+        </div>
+        <div class="p-6">
+          <span class="inline-block bg-cta-500 text-white text-xs font-bold px-3 py-1 rounded-full mb-3">From $220</span>
+          <h3 class="text-xl font-bold text-brand-900 mb-2 group-hover:text-cta-600 transition">Rat Control</h3>
+          <p class="text-gray-600 text-sm">Baiting, trapping &amp; entry point sealing. Roof rats, Norway rats &amp; rodent-proofing.</p>
+        </div>
+      </a>
+
+      <!-- Mice Control -->
+      <a href="mice-control.html" class="service-card bg-white rounded-2xl shadow-md border border-gray-100 overflow-hidden group block">
+        <div class="h-48 overflow-hidden bg-brand-100 flex items-center justify-center">
+          <img src="mice.png" alt="Mice control Melbourne" class="card-img w-full h-full object-cover" loading="lazy">
+        </div>
+        <div class="p-6">
+          <span class="inline-block bg-cta-500 text-white text-xs font-bold px-3 py-1 rounded-full mb-3">From $220</span>
+          <h3 class="text-xl font-bold text-brand-900 mb-2 group-hover:text-cta-600 transition">Mice Control</h3>
+          <p class="text-gray-600 text-sm">Entry point sealing, bait stations &amp; trapping. Mice in walls, roof &amp; kitchen.</p>
+        </div>
+      </a>
+
+      <!-- Ant Control -->
+      <a href="ant-control.html" class="service-card bg-white rounded-2xl shadow-md border border-gray-100 overflow-hidden group block">
+        <div class="h-48 overflow-hidden bg-brand-100">
+          <img src="price%20card%20images/ant.jpg" alt="Ant control Melbourne" class="card-img w-full h-full object-cover" loading="lazy">
+        </div>
+        <div class="p-6">
+          <span class="inline-block bg-cta-500 text-white text-xs font-bold px-3 py-1 rounded-full mb-3">From $150</span>
+          <h3 class="text-xl font-bold text-brand-900 mb-2 group-hover:text-cta-600 transition">Ant Control</h3>
+          <p class="text-gray-600 text-sm">Gel baits, perimeter spray &amp; colony elimination. Black ants, white-footed &amp; carpenter ants.</p>
+        </div>
+      </a>
+
+      <!-- Wasp Removal -->
+      <a href="wasp-removal.html" class="service-card bg-white rounded-2xl shadow-md border border-gray-100 overflow-hidden group block">
+        <div class="h-48 overflow-hidden bg-brand-100">
+          <img src="price%20card%20images/wasp.jpg" alt="Wasp removal Melbourne" class="card-img w-full h-full object-cover" loading="lazy">
+        </div>
+        <div class="p-6">
+          <span class="inline-block bg-cta-500 text-white text-xs font-bold px-3 py-1 rounded-full mb-3">From $150</span>
+          <h3 class="text-xl font-bold text-brand-900 mb-2 group-hover:text-cta-600 transition">Wasp Removal</h3>
+          <p class="text-gray-600 text-sm">Paper wasps, European wasps &amp; mud daubers. Full PPE, insecticide &amp; nest removal.</p>
+        </div>
+      </a>
+
+      <!-- Bee Removal -->
+      <a href="bee-removal.html" class="service-card bg-white rounded-2xl shadow-md border border-gray-100 overflow-hidden group block">
+        <div class="h-48 overflow-hidden bg-yellow-50 flex items-center justify-center">
+          <div class="text-7xl">&#128029;</div>
+        </div>
+        <div class="p-6">
+          <span class="inline-block bg-cta-500 text-white text-xs font-bold px-3 py-1 rounded-full mb-3">From $200</span>
+          <h3 class="text-xl font-bold text-brand-900 mb-2 group-hover:text-cta-600 transition">Bee Removal</h3>
+          <p class="text-gray-600 text-sm">Safe swarm removal &amp; live relocation. Hive extraction from walls, roofs &amp; trees.</p>
+        </div>
+      </a>
+
+      <!-- Bed Bug Treatment -->
+      <a href="bed-bug-treatment.html" class="service-card bg-white rounded-2xl shadow-md border border-gray-100 overflow-hidden group block">
+        <div class="h-48 overflow-hidden bg-brand-100">
+          <img src="price%20card%20images/bed%20bug%202.jpg" alt="Bed bug treatment Melbourne" class="card-img w-full h-full object-cover" loading="lazy">
+        </div>
+        <div class="p-6">
+          <span class="inline-block bg-cta-500 text-white text-xs font-bold px-3 py-1 rounded-full mb-3">From $200</span>
+          <h3 class="text-xl font-bold text-brand-900 mb-2 group-hover:text-cta-600 transition">Bed Bug Treatment</h3>
+          <p class="text-gray-600 text-sm">Multi-stage chemical treatment targeting all life stages. Follow-up visit included.</p>
+        </div>
+      </a>
+
+      <!-- Flea Treatment -->
+      <a href="flea-treatment.html" class="service-card bg-white rounded-2xl shadow-md border border-gray-100 overflow-hidden group block">
+        <div class="h-48 overflow-hidden bg-orange-50 flex items-center justify-center">
+          <div class="text-7xl">&#128054;</div>
+        </div>
+        <div class="p-6">
+          <span class="inline-block bg-cta-500 text-white text-xs font-bold px-3 py-1 rounded-full mb-3">From $180</span>
+          <h3 class="text-xl font-bold text-brand-900 mb-2 group-hover:text-cta-600 transition">Flea Treatment</h3>
+          <p class="text-gray-600 text-sm">Interior &amp; exterior flea spray. Pets, carpets &amp; all surfaces. Written warranty.</p>
+        </div>
+      </a>
+
+      <!-- End of Lease Flea -->
+      <a href="end-of-lease-flea.html" class="service-card bg-white rounded-2xl shadow-md border border-gray-100 overflow-hidden group block">
+        <div class="h-48 overflow-hidden bg-green-50 flex items-center justify-center">
+          <div class="text-7xl">&#128206;</div>
+        </div>
+        <div class="p-6">
+          <span class="inline-block bg-cta-500 text-white text-xs font-bold px-3 py-1 rounded-full mb-3">From $180</span>
+          <h3 class="text-xl font-bold text-brand-900 mb-2 group-hover:text-cta-600 transition">End of Lease Flea</h3>
+          <p class="text-gray-600 text-sm">Bond flea treatment with written certificate accepted by agents &amp; landlords.</p>
+        </div>
+      </a>
+
+      <!-- Commercial Pest Control -->
+      <a href="commercial-pest.html" class="service-card bg-white rounded-2xl shadow-md border border-gray-100 overflow-hidden group block">
+        <div class="h-48 overflow-hidden bg-blue-50 flex items-center justify-center">
+          <div class="text-7xl">&#127970;</div>
+        </div>
+        <div class="p-6">
+          <span class="inline-block bg-brand-600 text-white text-xs font-bold px-3 py-1 rounded-full mb-3">Free Quote</span>
+          <h3 class="text-xl font-bold text-brand-900 mb-2 group-hover:text-cta-600 transition">Commercial Pest Control</h3>
+          <p class="text-gray-600 text-sm">HACCP-compliant pest management for restaurants, offices, warehouses &amp; retail.</p>
+        </div>
+      </a>
+
+      <!-- Possum Removal -->
+      <a href="possum-removal.html" class="service-card bg-white rounded-2xl shadow-md border border-gray-100 overflow-hidden group block">
+        <div class="h-48 overflow-hidden bg-brand-100">
+          <img src="price%20card%20images/possum.jpg" alt="Possum removal Melbourne" class="card-img w-full h-full object-cover" loading="lazy">
+        </div>
+        <div class="p-6">
+          <span class="inline-block bg-brand-600 text-white text-xs font-bold px-3 py-1 rounded-full mb-3">Free Quote</span>
+          <h3 class="text-xl font-bold text-brand-900 mb-2 group-hover:text-cta-600 transition">Possum Removal</h3>
+          <p class="text-gray-600 text-sm">Humane, wildlife-compliant possum removal. Roof trapping, one-way doors &amp; sealing.</p>
+        </div>
+      </a>
+
+      <!-- Carpet Beetle Control -->
+      <a href="carpet-beetles-control.html" class="service-card bg-white rounded-2xl shadow-md border border-gray-100 overflow-hidden group block">
+        <div class="h-48 overflow-hidden bg-brand-100">
+          <img src="price%20card%20images/carpet-beetle.jpg" alt="Carpet beetle control Melbourne" class="card-img w-full h-full object-cover" loading="lazy">
+        </div>
+        <div class="p-6">
+          <span class="inline-block bg-cta-500 text-white text-xs font-bold px-3 py-1 rounded-full mb-3">From $150</span>
+          <h3 class="text-xl font-bold text-brand-900 mb-2 group-hover:text-cta-600 transition">Carpet Beetle Control</h3>
+          <p class="text-gray-600 text-sm">Protect fabrics, carpets &amp; furnishings. Targeted spray &amp; prevention advice.</p>
+        </div>
+      </a>
+
+      <!-- Moth Control -->
+      <a href="moths-removal.html" class="service-card bg-white rounded-2xl shadow-md border border-gray-100 overflow-hidden group block">
+        <div class="h-48 overflow-hidden bg-brand-100">
+          <img src="price%20card%20images/moth.jpg" alt="Moth control Melbourne" class="card-img w-full h-full object-cover" loading="lazy">
+        </div>
+        <div class="p-6">
+          <span class="inline-block bg-cta-500 text-white text-xs font-bold px-3 py-1 rounded-full mb-3">From $150</span>
+          <h3 class="text-xl font-bold text-brand-900 mb-2 group-hover:text-cta-600 transition">Moth Control</h3>
+          <p class="text-gray-600 text-sm">Pantry moths &amp; clothes moths eliminated. Fumigation, traps &amp; prevention.</p>
+        </div>
+      </a>
+
+      <!-- Bird Control -->
+      <a href="birds-pest-control.html" class="service-card bg-white rounded-2xl shadow-md border border-gray-100 overflow-hidden group block">
+        <div class="h-48 overflow-hidden bg-brand-100">
+          <img src="price%20card%20images/bird.jpg" alt="Bird control Melbourne" class="card-img w-full h-full object-cover" loading="lazy">
+        </div>
+        <div class="p-6">
+          <span class="inline-block bg-brand-600 text-white text-xs font-bold px-3 py-1 rounded-full mb-3">Free Quote</span>
+          <h3 class="text-xl font-bold text-brand-900 mb-2 group-hover:text-cta-600 transition">Bird Control &amp; Proofing</h3>
+          <p class="text-gray-600 text-sm">Netting, spikes &amp; deterrents for pigeons, mynas &amp; other pest birds.</p>
+        </div>
+      </a>
+
+      <!-- Snake Removal -->
+      <a href="snake-pest-control.html" class="service-card bg-white rounded-2xl shadow-md border border-gray-100 overflow-hidden group block">
+        <div class="h-48 overflow-hidden bg-brand-100">
+          <img src="price%20card%20images/snake.jpg" alt="Snake removal Melbourne" class="card-img w-full h-full object-cover" loading="lazy">
+        </div>
+        <div class="p-6">
+          <span class="inline-block bg-brand-600 text-white text-xs font-bold px-3 py-1 rounded-full mb-3">Free Quote</span>
+          <h3 class="text-xl font-bold text-brand-900 mb-2 group-hover:text-cta-600 transition">Snake Removal</h3>
+          <p class="text-gray-600 text-sm">Licensed snake catchers. Tiger snakes, brown snakes &amp; more. Emergency callouts.</p>
+        </div>
+      </a>
+
+      <!-- Mosquito Control -->
+      <a href="mosquitoes-control.html" class="service-card bg-white rounded-2xl shadow-md border border-gray-100 overflow-hidden group block">
+        <div class="h-48 overflow-hidden bg-brand-100">
+          <img src="price%20card%20images/mosquito.jpg" alt="Mosquito control Melbourne" class="card-img w-full h-full object-cover" loading="lazy">
+        </div>
+        <div class="p-6">
+          <span class="inline-block bg-cta-500 text-white text-xs font-bold px-3 py-1 rounded-full mb-3">From $180</span>
+          <h3 class="text-xl font-bold text-brand-900 mb-2 group-hover:text-cta-600 transition">Mosquito Control</h3>
+          <p class="text-gray-600 text-sm">Barrier sprays &amp; larvicide treatment. Outdoor areas, pools &amp; gardens.</p>
+        </div>
+      </a>
+
+      <!-- Pre-Construction Termite -->
+      <a href="pre-con-termite-solutions.html" class="service-card bg-white rounded-2xl shadow-md border border-gray-100 overflow-hidden group block">
+        <div class="h-48 overflow-hidden bg-brand-100">
+          <img src="price%20card%20images/termite%201.jpg" alt="Pre-construction termite barrier Melbourne" class="card-img w-full h-full object-cover" loading="lazy">
+        </div>
+        <div class="p-6">
+          <span class="inline-block bg-brand-600 text-white text-xs font-bold px-3 py-1 rounded-full mb-3">Free Quote</span>
+          <h3 class="text-xl font-bold text-brand-900 mb-2 group-hover:text-cta-600 transition">Pre-Construction Termite</h3>
+          <p class="text-gray-600 text-sm">AS 3660.1 compliant barriers for new builds, extensions &amp; renovations.</p>
+        </div>
+      </a>
+
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="py-20 bg-gradient-to-br from-brand-950 via-brand-900 to-brand-800">
+  <div class="max-w-3xl mx-auto px-4 text-center">
+    <h2 class="text-3xl md:text-4xl font-extrabold text-white mb-6">Need Pest Control?<br>We're Ready to Help.</h2>
+    <p class="text-xl text-blue-200 mb-10">Same-day service across Melbourne. Licensed, insured, and backed by a written warranty on every job.</p>
+    <div class="flex flex-col sm:flex-row gap-4 justify-center">
+      <a href="tel:0416528547" class="cta-btn font-bold px-10 py-4 rounded-full text-lg shadow-2xl flex items-center justify-center gap-2">
+        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
+        Call 0416 528 547
+      </a>
+    </div>
+    <p class="text-blue-300/60 text-sm mt-6">Serving all Melbourne metro areas &mdash; 7 days a week</p>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-brand-950 border-t border-white/10 py-8">
+  <div class="max-w-7xl mx-auto px-4 text-center">
+    <div class="flex items-center justify-center gap-3 mb-4">
+      <img src="logo.svg" alt="Pest Eraze" class="h-6 w-auto">
+      <span class="text-white font-bold">Pest <span class="text-cta-500">Eraze</span></span>
+    </div>
+    <p class="text-gray-500 text-sm">&copy; 2025 Pest Eraze Melbourne. All rights reserved.</p>
+  </div>
+</footer>
+
+<!-- Scroll reveal -->
+<script>
+const ro=new IntersectionObserver((entries)=>{entries.forEach(e=>{if(e.isIntersecting){e.target.classList.add('visible');ro.unobserve(e.target)}})},{threshold:0.15});
+document.querySelectorAll('.reveal').forEach(el=>ro.observe(el));
+</script>
 </body>
 </html>
