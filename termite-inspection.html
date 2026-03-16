@@ -705,7 +705,7 @@ async function submitForm(e,formId,okId){
     if(j.success){
       f.style.display='none';
       document.getElementById(okId).classList.remove('hidden');
-      if(typeof gtag==='function'){gtag('event','conversion',{'send_to':'AW-17982461576/6KWDCMKQi4IcEIit2v5C','value':1.0,'currency':'AUD'});gtag('event','generate_lead',{'currency':'AUD','value':1.0});}
+      if(typeof gtag==='function'){gtag('event','conversion',{'send_to':'AW-17982461576/6KWDCMKQi4IcEIit2v5C','value':1.0,'currency':'AUD'});}
     }else{
       btn.innerHTML=orig;btn.disabled=false;
       alert('Something went wrong. Please call us at 0416 528 547.');
