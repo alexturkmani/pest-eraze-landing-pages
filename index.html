@@ -78,6 +78,7 @@ body{font-family:'Inter',system-ui,sans-serif;overflow-x:hidden}
   <div class="relative max-w-7xl mx-auto px-4 text-center">
     <span class="inline-block bg-cta-500/20 text-cta-400 text-xs font-bold px-4 py-1.5 rounded-full mb-6 uppercase tracking-wider">Melbourne's Trusted Pest Control</span>
     <h1 class="text-4xl md:text-5xl lg:text-6xl font-extrabold text-white leading-tight mb-6">Professional Pest Control<br><span class="bg-gradient-to-r from-cta-400 to-yellow-300 bg-clip-text text-transparent">For Every Pest Problem</span></h1>
+    <p class="text-xl md:text-2xl font-extrabold text-yellow-400 mb-6">25% OFF for New Customers &mdash; Limited Time!</p>
     <p class="text-lg md:text-xl text-blue-200/80 max-w-2xl mx-auto mb-10">Same-day service across Melbourne. Licensed technicians, written warranties, and 4.9-star rated by 200+ homeowners. From just $150.</p>
     <div class="flex flex-col sm:flex-row gap-4 justify-center">
       <a href="tel:0416528547" class="cta-btn font-bold px-8 py-4 rounded-full text-lg shadow-2xl flex items-center justify-center gap-2">
@@ -615,5 +616,8 @@ const cObs=new IntersectionObserver((entries)=>{entries.forEach(e=>{if(e.isInter
   cObs.unobserve(el)}})},{threshold:0.5});
 document.querySelectorAll('.stat-counter[data-target]').forEach(el=>cObs.observe(el));
 </script>
+<!-- WhatsApp Chat Button -->
+<a href="https://wa.me/61416528547?text=Hi%2C%20I%20need%20a%20pest%20control%20quote" target="_blank" rel="noopener noreferrer" id="wa-btn" style="position:fixed;bottom:24px;left:24px;z-index:9998;background:#25D366;color:#fff;border-radius:50px;padding:14px 20px;font-weight:700;font-size:15px;text-decoration:none;box-shadow:0 4px 16px rgba(37,211,102,0.4);display:flex;align-items:center;gap:8px;transition:all .3s;opacity:0;transform:translateY(20px)" aria-label="Chat on WhatsApp"><svg width="22" height="22" fill="#fff" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.625.846 5.059 2.284 7.034L.789 23.492l4.624-1.467A11.932 11.932 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818c-2.168 0-4.19-.588-5.932-1.61l-.425-.253-2.742.87.883-2.655-.278-.44A9.777 9.777 0 012.182 12c0-5.418 4.4-9.818 9.818-9.818S21.818 6.582 21.818 12s-4.4 9.818-9.818 9.818z"/></svg>Chat with us</a>
+<script>setTimeout(function(){var b=document.getElementById('wa-btn');if(b){b.style.opacity='1';b.style.transform='translateY(0)'}},3000);</script>
 </body>
 </html>
