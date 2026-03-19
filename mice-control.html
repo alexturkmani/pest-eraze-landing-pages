@@ -36,6 +36,10 @@
                     <input type="hidden" name="subject" value="New Mice Eradication Lead">
                     <input type="hidden" name="pest_type" value="Mice Control">
                     <div class="mb-4 text-left">
+                        <label class="block text-sm font-bold mb-2">Your Name</label>
+                        <input type="text" name="name" placeholder="e.g. John" class="w-full p-4 border rounded-lg focus:ring-2 focus:ring-orange-500 outline-none" required>
+                    </div>
+                    <div class="mb-4 text-left">
                         <label class="block text-sm font-bold mb-2">What's your suburb?</label>
                         <input type="text" name="suburb" placeholder="e.g. Greenvale" class="w-full p-4 border rounded-lg focus:ring-2 focus:ring-orange-500 outline-none" required>
                     </div>
@@ -107,9 +111,17 @@
         submitBtn.innerText = "SENDING YOUR QUOTE...";
         submitBtn.disabled = true;
         try {
-            const response = await fetch('https://api.web3forms.com/submit', {
+            const payload = {
+                name: formData.get('name'),
+                phone: formData.get('phone'),
+                suburb: formData.get('suburb'),
+                pest_type: formData.get('pest_type'),
+                subject: formData.get('subject')
+            };
+            const response = await fetch('/api/lead', {
                 method: 'POST',
-                body: formData
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(payload)
             });
             const result = await response.json();
             if (result.success) {
