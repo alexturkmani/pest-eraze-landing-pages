@@ -692,7 +692,7 @@ body{font-family:'Inter',system-ui,sans-serif;overflow-x:hidden}
           <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 faq-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
         </button>
         <div class="faq-answer">
-          <div class="px-6 pb-6 text-gray-600">Our general pest treatments start today. Final pricing depends on property size, pest type, and severity. We always provide a free, transparent quote before any work begins.</div>
+          <div class="px-6 pb-6 text-gray-600">Our general pest treatments are competitively priced. Final pricing depends on property size, pest type, and severity. We always provide a free, transparent quote before any work begins.</div>
         </div>
       </div>
       <div class="bg-white rounded-2xl shadow-md border border-gray-100 overflow-hidden">
