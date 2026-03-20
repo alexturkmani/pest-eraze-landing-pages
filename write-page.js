@@ -6,8 +6,8 @@ const html = `<!DOCTYPE html>
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Pest Eraze Melbourne | #1 Same-Day Pest Control from $150</title>
-<meta name="description" content="Melbourne's trusted pest control experts. Same-day service, 6-month guarantee, fully licensed & insured. Cockroaches, termites, rodents & more from $150.">
+<title>Pest Eraze Melbourne | #1 Same-Day Pest Control</title>
+<meta name="description" content="Melbourne's trusted pest control experts. Same-day service, 6-month guarantee, fully licensed & insured. Cockroaches, termites, rodents & more.">
 <link rel="canonical" href="https://pesteraze.com.au/">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -262,13 +262,13 @@ body{font-family:'Inter',system-ui,sans-serif;overflow-x:hidden}
     <div class="flex items-center gap-2 px-6 text-blue-400 text-sm font-medium whitespace-nowrap">&#9989; Same-Day Service Available</div>
     <div class="flex items-center gap-2 px-6 text-blue-400 text-sm font-medium whitespace-nowrap">&#128170; 6-Month Re-Treatment Guarantee</div>
     <div class="flex items-center gap-2 px-6 text-blue-400 text-sm font-medium whitespace-nowrap">&#127968; 2,000+ Homes Protected</div>
-    <div class="flex items-center gap-2 px-6 text-blue-400 text-sm font-medium whitespace-nowrap">&#128176; From Just $150</div>
+    
     <div class="flex items-center gap-2 px-6 text-blue-400 text-sm font-medium whitespace-nowrap">&#128272; Fully Licensed &amp; Insured</div>
     <div class="flex items-center gap-2 px-6 text-blue-400 text-sm font-medium whitespace-nowrap">&#9733;&#9733;&#9733;&#9733;&#9733; Rated 4.9/5 on Google</div>
     <div class="flex items-center gap-2 px-6 text-blue-400 text-sm font-medium whitespace-nowrap">&#9989; Same-Day Service Available</div>
     <div class="flex items-center gap-2 px-6 text-blue-400 text-sm font-medium whitespace-nowrap">&#128170; 6-Month Re-Treatment Guarantee</div>
     <div class="flex items-center gap-2 px-6 text-blue-400 text-sm font-medium whitespace-nowrap">&#127968; 2,000+ Homes Protected</div>
-    <div class="flex items-center gap-2 px-6 text-blue-400 text-sm font-medium whitespace-nowrap">&#128176; From Just $150</div>
+    
     <div class="flex items-center gap-2 px-6 text-blue-400 text-sm font-medium whitespace-nowrap">&#128272; Fully Licensed &amp; Insured</div>
   </div>
 </div>
@@ -313,7 +313,7 @@ body{font-family:'Inter',system-ui,sans-serif;overflow-x:hidden}
       <div class="reveal bg-white rounded-2xl p-8 shadow-lg border border-red-100 card-hover text-center" style="transition-delay:.1s">
         <div class="text-5xl mb-4">&#128029;</div>
         <h3 class="text-xl font-bold text-brand-900 mb-3">Termites</h3>
-        <p class="text-gray-600 mb-4">Cause <span class="font-bold text-red-600">$100,000+ in damage</span> before you even notice. Not covered by most home insurance.</p>
+        <p class="text-gray-600 mb-4">Cause <span class="font-bold text-red-600">serious structural damage</span> before you even notice. Not covered by most home insurance.</p>
         <div class="text-red-600 font-bold text-sm">&#9888; 1 in 3 Melbourne homes at risk</div>
       </div>
       <div class="reveal bg-white rounded-2xl p-8 shadow-lg border border-red-100 card-hover text-center" style="transition-delay:.2s">
@@ -399,7 +399,7 @@ body{font-family:'Inter',system-ui,sans-serif;overflow-x:hidden}
       <div class="reveal service-card bg-white rounded-2xl p-6 shadow-md border border-gray-100 card-hover">
         <div class="flex items-start justify-between mb-4">
           <div class="w-14 h-14 bg-blue-50 rounded-2xl flex items-center justify-center text-2xl">&#128027;</div>
-          <span class="bg-green-100 text-green-700 text-xs font-bold px-3 py-1 rounded-full">From $150</span>
+          
         </div>
         <h3 class="text-lg font-bold text-brand-900 mb-2">General Pest Treatment</h3>
         <p class="text-gray-600 text-sm">Comprehensive treatment covering cockroaches, spiders, ants, and silverfish in one visit.</p>
@@ -407,7 +407,7 @@ body{font-family:'Inter',system-ui,sans-serif;overflow-x:hidden}
       <div class="reveal service-card bg-white rounded-2xl p-6 shadow-md border border-gray-100 card-hover" style="transition-delay:.05s">
         <div class="flex items-start justify-between mb-4">
           <div class="w-14 h-14 bg-amber-50 rounded-2xl flex items-center justify-center text-2xl">&#128269;</div>
-          <span class="bg-green-100 text-green-700 text-xs font-bold px-3 py-1 rounded-full">From $280</span>
+          
         </div>
         <h3 class="text-lg font-bold text-brand-900 mb-2">Termite Inspection</h3>
         <p class="text-gray-600 text-sm">Thorough inspection using thermal imaging and moisture meters. Detailed report included.</p>
@@ -415,7 +415,7 @@ body{font-family:'Inter',system-ui,sans-serif;overflow-x:hidden}
       <div class="reveal service-card bg-white rounded-2xl p-6 shadow-md border border-gray-100 card-hover" style="transition-delay:.1s">
         <div class="flex items-start justify-between mb-4">
           <div class="w-14 h-14 bg-red-50 rounded-2xl flex items-center justify-center text-2xl">&#128029;</div>
-          <span class="bg-green-100 text-green-700 text-xs font-bold px-3 py-1 rounded-full">From $2,500</span>
+          
         </div>
         <h3 class="text-lg font-bold text-brand-900 mb-2">Termite Treatment</h3>
         <p class="text-gray-600 text-sm">Full colony elimination with chemical barriers and baiting systems. Long-term protection.</p>
@@ -423,7 +423,7 @@ body{font-family:'Inter',system-ui,sans-serif;overflow-x:hidden}
       <div class="reveal service-card bg-white rounded-2xl p-6 shadow-md border border-gray-100 card-hover" style="transition-delay:.15s">
         <div class="flex items-start justify-between mb-4">
           <div class="w-14 h-14 bg-orange-50 rounded-2xl flex items-center justify-center text-2xl">&#128027;</div>
-          <span class="bg-green-100 text-green-700 text-xs font-bold px-3 py-1 rounded-full">From $150</span>
+          
         </div>
         <h3 class="text-lg font-bold text-brand-900 mb-2">Cockroach Control</h3>
         <p class="text-gray-600 text-sm">Targeted gel baiting and residual spray treatment. Eliminates nests at the source.</p>
@@ -431,7 +431,7 @@ body{font-family:'Inter',system-ui,sans-serif;overflow-x:hidden}
       <div class="reveal service-card bg-white rounded-2xl p-6 shadow-md border border-gray-100 card-hover" style="transition-delay:.2s">
         <div class="flex items-start justify-between mb-4">
           <div class="w-14 h-14 bg-gray-100 rounded-2xl flex items-center justify-center text-2xl">&#128000;</div>
-          <span class="bg-green-100 text-green-700 text-xs font-bold px-3 py-1 rounded-full">From $220</span>
+          
         </div>
         <h3 class="text-lg font-bold text-brand-900 mb-2">Rat &amp; Mice Control</h3>
         <p class="text-gray-600 text-sm">Strategic baiting, trapping, and entry-point sealing. Full rodent-proofing service.</p>
@@ -439,7 +439,7 @@ body{font-family:'Inter',system-ui,sans-serif;overflow-x:hidden}
       <div class="reveal service-card bg-white rounded-2xl p-6 shadow-md border border-gray-100 card-hover" style="transition-delay:.25s">
         <div class="flex items-start justify-between mb-4">
           <div class="w-14 h-14 bg-purple-50 rounded-2xl flex items-center justify-center text-2xl">&#128375;</div>
-          <span class="bg-green-100 text-green-700 text-xs font-bold px-3 py-1 rounded-full">From $150</span>
+          
         </div>
         <h3 class="text-lg font-bold text-brand-900 mb-2">Spiders &amp; Ants</h3>
         <p class="text-gray-600 text-sm">Internal and external treatment with long-lasting barrier protection around your home.</p>
@@ -447,7 +447,7 @@ body{font-family:'Inter',system-ui,sans-serif;overflow-x:hidden}
       <div class="reveal service-card bg-white rounded-2xl p-6 shadow-md border border-gray-100 card-hover" style="transition-delay:.3s">
         <div class="flex items-start justify-between mb-4">
           <div class="w-14 h-14 bg-rose-50 rounded-2xl flex items-center justify-center text-2xl">&#128055;</div>
-          <span class="bg-green-100 text-green-700 text-xs font-bold px-3 py-1 rounded-full">From $300</span>
+          
         </div>
         <h3 class="text-lg font-bold text-brand-900 mb-2">Bed Bug Treatment</h3>
         <p class="text-gray-600 text-sm">Heat and chemical treatment combination. Thorough mattress, furniture, and room treatment.</p>
@@ -455,7 +455,7 @@ body{font-family:'Inter',system-ui,sans-serif;overflow-x:hidden}
       <div class="reveal service-card bg-white rounded-2xl p-6 shadow-md border border-gray-100 card-hover" style="transition-delay:.35s">
         <div class="flex items-start justify-between mb-4">
           <div class="w-14 h-14 bg-teal-50 rounded-2xl flex items-center justify-center text-2xl">&#128062;</div>
-          <span class="bg-green-100 text-green-700 text-xs font-bold px-3 py-1 rounded-full">From $180</span>
+          
         </div>
         <h3 class="text-lg font-bold text-brand-900 mb-2">Flea / End of Lease</h3>
         <p class="text-gray-600 text-sm">Complete flea elimination with certificate provided. Perfect for end-of-lease requirements.</p>
@@ -463,7 +463,7 @@ body{font-family:'Inter',system-ui,sans-serif;overflow-x:hidden}
       <div class="reveal service-card bg-white rounded-2xl p-6 shadow-md border border-gray-100 card-hover" style="transition-delay:.4s">
         <div class="flex items-start justify-between mb-4">
           <div class="w-14 h-14 bg-yellow-50 rounded-2xl flex items-center justify-center text-2xl">&#127793;</div>
-          <span class="bg-green-100 text-green-700 text-xs font-bold px-3 py-1 rounded-full">From $150</span>
+          
         </div>
         <h3 class="text-lg font-bold text-brand-900 mb-2">Wasp &amp; Bee Removal</h3>
         <p class="text-gray-600 text-sm">Safe nest removal and relocation. Emergency service available for dangerous nests.</p>
@@ -692,7 +692,7 @@ body{font-family:'Inter',system-ui,sans-serif;overflow-x:hidden}
           <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 faq-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
         </button>
         <div class="faq-answer">
-          <div class="px-6 pb-6 text-gray-600">Our general pest treatments start from just $150. Final pricing depends on property size, pest type, and severity. We always provide a free, transparent quote before any work begins.</div>
+          <div class="px-6 pb-6 text-gray-600">Our general pest treatments are competitively priced. Final pricing depends on property size, pest type, and severity. We always provide a free, transparent quote before any work begins.</div>
         </div>
       </div>
       <div class="bg-white rounded-2xl shadow-md border border-gray-100 overflow-hidden">
@@ -735,7 +735,7 @@ body{font-family:'Inter',system-ui,sans-serif;overflow-x:hidden}
           <div class="w-8 h-8 bg-green-500/20 rounded-full flex items-center justify-center flex-shrink-0">
             <svg class="w-4 h-4 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
           </div>
-          <span class="text-blue-200">From just $150 &mdash; transparent pricing</span>
+          <span class="text-blue-200">today &mdash; transparent pricing</span>
         </div>
       </div>
     </div>
